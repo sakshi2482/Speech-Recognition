@@ -1,29 +1,39 @@
 # Speech Recognition System
 
-## 📌 Overview
-This project is a Python-based Speech Recognition system that converts spoken audio into text using speech processing libraries.
+📌 Overview
+This project is a Python-based Speech Recognition system that converts spoken audio into text using Machine Learning and Digital Signal Processing (DSP) techniques.
 
-## 🛠️ Technologies Used
+🛠️ Technologies Used
 - Python
 - SpeechRecognition
-- PyAudio / WAV audio files
+- Machine Learning
+- DSP
+- WAV Audio Files
 
-## 🚀 Features
-- Converts speech to text
-- Supports microphone and audio file input
-- Accurate transcription for clear audio
+🚀 Features
+- Converts speech audio into text
+- ML-based speech recognition approach
+- Supports audio file input
 
-## ▶️ How to Run
-1. Install required libraries  
-   `pip install SpeechRecognition pyaudio`
+▶️ How to Run
+1. Install required libraries:
+   pip install SpeechRecognition pyaudio
 
-2. Run the script  
-   `python speech_recognition.py`
+2. Go to src folder:
+   cd src
 
-## 📂 Project Structure
-- speech_recognition.py
-- audio_files/
+3. Run the program:
+   python speechtotext.py
+
+📂 Project Structure
+Speech-Recognition/
+- src/
+  - speechtotext.py
+  - SR ML model.py
 - README.md
 
-## 👤 Author
+📊 Dataset
+Google Speech Commands Dataset (not uploaded due to size limit)
+
+👤 Author
 Sakshi Birajdar
